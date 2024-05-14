@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivaji College University of Delhi</title>
+    <link rel="shortcut icon" href="./icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/shivajilogo.png" alt="college logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>    
+        <h1>COURSES OFFERED</h1>
+    </section>
+
+<!-------Course----->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>29 undergraduate (UG) and three postgraduate (PG) courses.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Shivaji College, University of Delhi, offers various 
+            courses in different faculties,
+            including Science, Commerce, and Humanities.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Shivaji College, University of Delhi offers 29 
+                undergraduate (UG) and three postgraduate (PG) courses, 
+                including B.A., B.Com, BSc, MA, and MCom.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Shivaji College, University of Delhi offer
+                post-graduate courses in Hindi, 
+                Political Science, and Sanskrit.</p>
+        </div>
+    </div>
+
+</section>
+
+<!------facilities---->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>29 undergraduate (UG) and three postgraduate (PG) courses.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.jpg" alt="library">
+            <h3>College library</h3>
+            <p>Shivaji College Library has a diverse collection of over 
+                78,625 (seventy eight thousand six hundred and twenty five) 
+                books and 739 CDs of various disciplines.The Library subscribes to 31 newspapers (including multiple copies) and magazines 
+                and has a rich collection of various reference sources such as encyclopedias, dictionaries, atlases, and yearbooks, etc.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/sports.jpeg" alt="sports complex">
+            <h3>College Sports Complex</h3>
+            <p>Shivaji College takes pride in maintaining one of the largest sports ground in Delhi University College. All forms of sports 
+                such as cricket, football, basketball, table tennis, athletics, softball, and baseball are practised 
+                regularly in the sports ground.Facilities like changing rooms and storerooms for students are also available.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="cafeteria">
+            <h3>College Cafeteria</h3>
+            <p>The canteen committee is responsible for monitoring the operations of the canteen, looking into 
+                tenders and coordinating with the vendor. The Shivaji College Canteen committee maintains 
+                the highest standards of health and cleanliness and regularly conducts checks regarding hygiene, 
+                upgradation and maintenance. </p>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!--------Footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Shivaji College is a premier institution of higher education at 
+        the University of Delhi that was <br>established in 1961 by the Hon'ble Dr 
+        Panjabrao Deshmukh, the Union Minister for Agriculture.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+          
+        </div>
+        <p>Made with  <i class="fa fa-heart-o" ></i> by Aman Yadav</p>
+</section>
+
+
+
+
+
+
+    
+    <!----JavaScript for Toggle Menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+
+
+</body>
+</html>
